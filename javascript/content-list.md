@@ -1,0 +1,24 @@
+- Comments
+- Variables and Constants
+- Data Types
+- Operators
+- Conditionals
+- Loops
+- Functions
+    - Declaration
+    - Expression
+    - Arrow Function
+- Objects & Arrays
+- Common Array Methods
+- String Methods
+- Date & Time
+- Math Object
+- Type Conversion
+- DOM Manipulation
+- Events
+- Form Handling
+- Error Handling
+- Asynchronous JavaScript
+- Classes (OOP)
+- Modules
+- Keywords (Reserved words)
