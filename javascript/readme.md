@@ -1,5 +1,5 @@
 # Javascript
-
+    Total of 24 modules covering 100% of Javascript.
 | Folder | Description | Examples |
 |-------|-----------|----------|
 | [Variables and Constants](./variables-and-constants/README.md) | Exemplos de elementos HTML | 2 |
