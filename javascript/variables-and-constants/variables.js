@@ -1,6 +1,6 @@
 
-// Variables and Constants in JavaScript
-// Variable example
+// Variables and Constants in JavaScript 
+
 let user = "Fabio";
 console.log("User:", user);
 user = "Carlos"; // reassignment
