@@ -16,3 +16,9 @@ console.log("Country:", country);
 // var (legacy, not recommended)
 var legacy = "old var";
 console.log("Legacy var:", legacy);
+
+// Demonstrating scope
+if (true) {
+    let blockScoped = "I am block scoped";
+    console.log(blockScoped); // Works
+}
