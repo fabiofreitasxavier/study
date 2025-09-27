@@ -1,11 +1,6 @@
 # JavaScript  
 
-Welcome to my **JavaScript Project**.  
-
-- 📘 `README.md`: Explanation, actions, and examples  
-- 💻 `practice.js`: Hands-on exercises  
-
-## 📂 Contents
+ ---
   
 1. [Core Basics](./variables-and-constants/README.md)  
 2. [Functions and Scope](./data-Types/README.md)  
