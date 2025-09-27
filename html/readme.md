@@ -23,9 +23,9 @@
 
 ### 2. Attributes
 1. [Global Attributes (11)](./02-Attributes/01-Global/README.md)  
-2. [Anchor](./02-Attributes/02-Events/README.md)  
-5. [Images](./02-Attributes/05-Links-Resources/README.md)  
-6. [Form Inputs](./02-Attributes/06-CustomData/README.md)  
+2. [Anchor (4)](./02-Attributes/02-Events/README.md)  
+5. [Images (3)](./02-Attributes/05-Links-Resources/README.md)  
+6. [Form Inputs (11)](./02-Attributes/06-CustomData/README.md)  
 
 ---
 
