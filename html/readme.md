@@ -1,8 +1,9 @@
-## 🌐 HTML
+##  HTML
 
-### Elements by Category
 
-#### Document Metadata (8)
+
+<details><summary>Document Metadata (8)</summary>  
+
 - `<base>` - Document base URL
 - `<head>` - Document metadata container
 - `<link>` - External resource links
@@ -11,8 +12,11 @@
 - `<title>` - Document title
 - `<noscript>` - Fallback content
 - `<template>` - HTML template definition
+- [Practice](/html/README.md)
+</details>
 
-#### Sectioning Content (7)
+<details><summary>Sectioning Content (7)</summary>  
+
 - `<address>` - Contact information
 - `<article>` - Self-contained content
 - `<aside>` - Tangential content
@@ -20,8 +24,11 @@
 - `<header>` - Introductory content
 - `<nav>` - Navigation links
 - `<section>` - Thematic grouping
+- [Practice](/html/README.md)
+</details>
 
-#### Text Content (17)
+<details><summary>Text Content (17) </summary> 
+
 - `<blockquote>` - Extended quotation
 - `<dd>` - Description list detail
 - `<div>` - Generic container
@@ -39,8 +46,11 @@
 - `<menu>` - Menu of commands
 - `<search>` - Search interface
 - `<hgroup>` - Heading group
+- [Practice](/html/README.md)
+</details>
 
-#### Inline Text Semantics (30)
+<details><summary> Inline Text Semantics (30) </summary> 
+
 - `<a>` - Anchor/hyperlink
 - `<abbr>` - Abbreviation
 - `<b>` - Bold text (no emphasis)
@@ -71,8 +81,11 @@
 - `<var>` - Variable
 - `<wbr>` - Word break opportunity
 - `<del>` - Deleted text (with `<ins>`)
+- [Practice](/html/README.md)
+</details>
 
-#### Image and Multimedia (9)
+<details><summary> Image and Multimedia (9)</summary>
+
 - `<area>` - Image map area
 - `<audio>` - Audio content
 - `<img>` - Image
@@ -82,20 +95,29 @@
 - `<picture>` - Responsive images
 - `<source>` - Media source
 - `<canvas>` - Graphics canvas
+- [Practice](/html/README.md)
+</details>
 
-#### Embedded Content (5)
+<details><summary>Embedded Content (5) </summary>
+
 - `<embed>` - External application
 - `<iframe>` - Inline frame
 - `<object>` - External resource
 - `<param>` - Object parameters
 - `<portal>` - Embedded page
+- [Practice](/html/README.md)
+</details>
 
-#### Scripting (3)
+<details><summary> Scripting (3) </summary>
+
 - `<canvas>` - Scriptable graphics
 - `<noscript>` - Non-script fallback
 - `<script>` - Executable code
+- [Practice](/html/README.md)
+</details>
 
-#### Tables (10)
+<details><summary> Tables (10) </summary> 
+
 - `<caption>` - Table caption
 - `<col>` - Table column
 - `<colgroup>` - Column group
@@ -106,8 +128,11 @@
 - `<th>` - Table header cell
 - `<thead>` - Table header
 - `<tr>` - Table row
+- [Practice](/html/README.md)
+</details>
 
-#### Forms (15)
+<details><summary>Forms (15)</summary>
+
 - `<button>` - Clickable button
 - `<datalist>` - Input options
 - `<fieldset>` - Form control group
@@ -123,19 +148,27 @@
 - `<select>` - Selection control
 - `<textarea>` - Multi-line text input
 - `<details>` - Disclosure widget
+- [Practice](/html/README.md)
+</details>
 
-#### Interactive Elements (3)
+<details><summary>Interactive Elements (3)</summary>
+
 - `<details>` - Disclosure widget
 - `<dialog>` - Dialog box
 - `<summary>` - Details summary
+- [Practice](/html/README.md)
+</details>
 
-#### Web Components (4)
+<details><summary> Web Components (4) </summary>
+
 - `<slot>` - Web component slot
 - `<template>` - HTML template
 - Custom elements (defined via JS)
 - Shadow DOM (technical feature)
+- [Practice](/html/README.md)
+</details>
 
-### Global Attributes (30+)
+<details><summary> Global Attributes (30+) </summary>
 
 #### Core Attributes
 - `accesskey` - Keyboard shortcut
@@ -167,11 +200,16 @@
 - `tabindex` - Tab order
 - `title` - Advisory information
 - `translate` - Translation flag
+- [Practice](/html/README.md)
+</details>
 
-#### Event Attributes (70+)
+<details><summary>Event Attributes (70+) </summary>
+
 Window Events, Form Events, Keyboard Events, Mouse Events, Drag Events, Clipboard Events, Media Events, Animation Events, Transition Events
+- [Practice](/html/README.md)
+</details>
 
-### Input Types (23)
+<details><summary>Input Types (23) </summary>
 
 - `button` - Clickable button
 - `checkbox` - Checkbox
@@ -196,5 +234,10 @@ Window Events, Form Events, Keyboard Events, Mouse Events, Drag Events, Clipboar
 - `url` - URL field
 - `week` - Week picker
 - `datetime` (deprecated)
+- [Practice](/html/README.md)
+</details>
 
 ---
+
+
+
