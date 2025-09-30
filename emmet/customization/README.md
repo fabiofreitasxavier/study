@@ -1,5 +1,13 @@
-# Customization
-<details><summary>Snippets.json</summary>  
-<details><summary>Preferences.json</summary> 
-<details><summary>SyntaxProfiles.json</summary> 
+### Custom Snippets
 
+Create custom abbreviations in `snippets.json`:
+
+```json
+{
+  "html": {
+    "snippets": {
+      "mysnippet": "div.wrapper>h1+p"
+    }
+  }
+}
+```

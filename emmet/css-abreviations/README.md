@@ -1,31 +1,43 @@
-# CSS Abbreviations
+### CSS Abbreviations
 
+#### Properties (200+ shortcuts)
 
-<details><summary>Vendor prefixes</summary>
+**Display & Position**
+- `d:n` → `display: none;`
+- `d:b` → `display: block;`
+- `d:f` → `display: flex;`
+- `d:g` → `display: grid;`
+- `pos:r` → `position: relative;`
+- `pos:a` → `position: absolute;`
+- `pos:f` → `position: fixed;`
 
-    - Emmet’s CSS resolver has a nice feature that can greatly improve your CSS3 experience. Every time you precede CSS property or its abbreviation with a hyphen, Emmet automatically creates vendor-prefixed copies of this property. For example, -bdrs abbreviation will be expanded into:
+**Dimensions**
+- `w100` → `width: 100px;`
+- `w100p` → `width: 100%;`
+- `h100` → `height: 100px;`
+- `mw100` → `max-width: 100px;`
 
-    - webkit-border-radius: ;
-    - moz-border-radius: ;
-    - border-radius: ;
+**Spacing**
+- `m10` → `margin: 10px;`
+- `mt10` → `margin-top: 10px;`
+- `p10` → `padding: 10px;`
+- `m10-20` → `margin: 10px 20px;`
 
-#### How it works?
-Whenever you expand abbreviation with a hyphen in front of it, Emmet removes the hyphen and looks for a snippet definition in snippets.json for the rest of the abbreviation. For example, for -bdrs abbreviation it will look for a bdrs definition. snippet.json has the following definition:
+**Flexbox**
+- `fxd:r` → `flex-direction: row;`
+- `jc:c` → `justify-content: center;`
+- `ai:c` → `align-items: center;`
 
-    - "bdrs": "border-radius:|;"
+**Typography**
+- `fz12` → `font-size: 12px;`
+- `fw700` → `font-weight: 700;`
+- `lh1.5` → `line-height: 1.5;`
 
-...which means that bdrs will be expanded into border-radius property. If no definition found, the abbreviation itself will be used as a CSS property name.
-</details>
+**Colors**
+- `c#fff` → `color: #fff;`
+- `bg#000` → `background: #000;`
 
-<details><summary>Gradients</summary>
-
-</details>
-
-<details><summary>Fuzzy search</summary>
-    
-    - To make CSS writing a bit easier, Emmet implement fuzzy search logic for CSS snippets: every time you enter unknown abbreviation, Emmet will try to find a closest snippet definition.
-
-    - For example, instead of writing ov:h (overflow: hidden;) abbreviation, you can write ov-h, ovh or even oh. You can play around with the fuzzy search in text editor below. Try to find as many variations as possible (use Tab key to expand abbreviations) for bxz:cb, ovx:h and pos:a snippets.
-
-
-</details>
+**Value Aliases**
+- `!` → `!important`
+- `a` → `auto`
+- `n` → `none`
