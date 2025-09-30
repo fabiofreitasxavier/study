@@ -13,7 +13,8 @@ Emmet extends the traditional concept of snippets (predefined code chunks) by al
 <details><summary>Web-Developer Focus</summary> 
 Emmet is optimized for HTML/XML and CSS workflows but is versatile enough to support other programming languages, making it a universal tool for developers working on web-related tasks.</details>
 
-<details><summary>Editor Integration</summary> 
+<details><summary>Editor Integration</summary>
+
 Emmet functions as a plugin for various text editors, enhancing their capabilities by integrating its abbreviation expansion and actions into the editing environment.
 </details>
 
