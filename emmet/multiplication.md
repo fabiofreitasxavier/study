@@ -1,8 +1,0 @@
-ul>li*5
-<ul>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-</ul>

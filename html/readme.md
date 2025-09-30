@@ -5,6 +5,7 @@
 ## 📂 Table of Contents
 
 <details><summary>Elements</summary>  
+
 1. [Document Metadata (8)](./01-Elements/01-Structure/README.md)  
 2. [Sectioning Content (7)](./01-Elements/02-Metadata/README.md)  
 3. [Text Content (6)](./01-Elements/03-Text/README.md)  
@@ -22,6 +23,7 @@
 ---
 
 <details><summary>Attributes</summary>  
+
 1. [Global Attributes (11)](./02-Attributes/01-Global/README.md)  
 2. [Anchor (4)](./02-Attributes/02-Events/README.md)  
 5. [Images (3)](./02-Attributes/05-Links-Resources/README.md)  
@@ -31,6 +33,7 @@
 
 
 <details><summary>Values</summary>  
+
 1. [type values for input (15)](./02-Attributes/01-Global/README.md)  
 2. [target values for <a> (4)](./02-Attributes/02-Events/README.md)  
 5. [method values for <form> (2)](./02-Attributes/05-Links-Resources/README.md)  
@@ -40,6 +43,7 @@
 
 
 <details><summary>APIs & Features</summary> 
+
 1. [Audio/Video API](./03-APIs/01-AudioVideo/README.md)  
 2. [Canvas API](./03-APIs/02-Canvas/README.md)  
 3. [SVG API](./03-APIs/03-SVG/README.md)  

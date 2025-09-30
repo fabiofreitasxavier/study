@@ -1,0 +1,3 @@
+snippets.json
+preferences.json
+syntaxProfiles.json
