@@ -22,5 +22,10 @@ Whenever you expand abbreviation with a hyphen in front of it, Emmet removes the
 </details>
 
 <details><summary>Fuzzy search</summary>
+    
+    - To make CSS writing a bit easier, Emmet implement fuzzy search logic for CSS snippets: every time you enter unknown abbreviation, Emmet will try to find a closest snippet definition.
+
+    - For example, instead of writing ov:h (overflow: hidden;) abbreviation, you can write ov-h, ovh or even oh. You can play around with the fuzzy search in text editor below. Try to find as many variations as possible (use Tab key to expand abbreviations) for bxz:cb, ovx:h and pos:a snippets.
+
 
 </details>

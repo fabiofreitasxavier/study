@@ -2,23 +2,22 @@
 
 ---
 
-## 📂 Table of Contents
 
 <details><summary>Elements</summary>  
 
-1. [Document Metadata (8)](./01-Elements/01-Structure/README.md)  
-2. [Sectioning Content (7)](./01-Elements/02-Metadata/README.md)  
-3. [Text Content (6)](./01-Elements/03-Text/README.md)  
-4. [Inline Text Semantics (8)](./01-Elements/04-InlineText/README.md)  
-5. [Formatting Elements (10)](./01-Elements/05-Links/README.md)  
-6. [Quotation and Citation Elements (6)](./01-Elements/06-Media/README.md)  
-7. [HTML Images (4)](./01-Elements/07-Grouping/README.md)  
-8. [Tables (10)](./01-Elements/08-Tables/README.md)  
-9. [Forms (11)](./01-Elements/09-Forms/README.md)  
-10. [Lists (6)](./01-Elements/10-Interactive/README.md)  
-11. [Media (9)](./01-Elements/11-Scripting/README.md)  
-12. [Script and Interactive (4)](./01-Elements/12-Graphics/README.md) 
-13. [Web Components (3)](./01-Elements/12-Graphics/README.md)  
+1. [Document Metadata (8)](./document-metadata/README.md)  
+2. [Sectioning Content (7)](./sectioning-content/README.md)  
+3. [Text Content (6)](./text-content/README.md)  
+4. [Inline Text Semantics (8)](./inline-text/README.md)  
+5. [Formatting Elements (10)](./formatting-elements/README.md)  
+6. [Quotation and Citation Elements (6)](./quotation-and-citation-elements/README.md)  
+7. [HTML Images (4)](./images/README.md)  
+8. [Tables (10)](./tables/README.md)  
+9. [Forms (11)](./forms/README.md)  
+10. [Lists (6)](./lists/README.md)  
+11. [Media (9)](./media/README.md)  
+12. [Script and Interactive (4)](./script-and-interactive/README.md) 
+13. [Web Components (3)](./web-components/README.md)  
 </details> 
 ---
 

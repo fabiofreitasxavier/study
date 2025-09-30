@@ -1,3 +1,5 @@
-snippets.json
-preferences.json
-syntaxProfiles.json
+# Customization
+<details><summary>Snippets.json</summary>  
+<details><summary>Preferences.json</summary> 
+<details><summary>SyntaxProfiles.json</summary> 
+
