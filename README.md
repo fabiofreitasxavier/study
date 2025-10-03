@@ -6,10 +6,12 @@ A comprehensive reference guide for HTML, CSS, Emmet, and Markdown based on offi
 
 ## 📑 Table of Contents
 
-- [HTML](/html/README.md)
-- [CSS](/css/README.md)
-- [Emmet](/emmet/README.md)
-- [Markdown](/markdown/README.md)
+- [HTML](/html/readme.md)
+- [CSS](/css/readme.md)
+- [Emmet](/emmet/readme.md)
+- [Markdown](/markdown/readme.md)
+- [Javascript](/javascript/readme.md)
+- [Tailwind](/tailwind/readme.md)
 
 ---
 
