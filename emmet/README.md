@@ -8,7 +8,7 @@
 3. [Actions](#actions)
 4. [Filters](#filters)
 5. [Customization](#customization)
-6. [Editor Integration](#editor-integration)
+
 
 ---
 
@@ -23,33 +23,11 @@ Creates nested elements (parent-child relationship).
 ```
 div>ul>li
 ```
-**Expands to:**
-```html
-<div>
-    <ul>
-        <li></li>
-    </ul>
-</div>
-```
 
 **More Examples:**
 ```
 nav>ul>li>a
-→
-<nav>
-    <ul>
-        <li><a href=""></a></li>
-    </ul>
-</nav>
 
-section>article>h2+p
-→
-<section>
-    <article>
-        <h2></h2>
-        <p></p>
-    </article>
-</section>
 ```
 
 ---
@@ -60,28 +38,12 @@ Creates elements at the same level.
 
 ```
 div+p+span
-```
-**Expands to:**
-```html
-<div></div>
-<p></p>
-<span></span>
+
 ```
 
 **More Examples:**
 ```
 header+main+footer
-→
-<header></header>
-<main></main>
-<footer></footer>
-
-h1+p+ul+p
-→
-<h1></h1>
-<p></p>
-<ul></ul>
-<p></p>
 ```
 
 ---
@@ -92,50 +54,18 @@ Climbs one level up in the tree structure.
 
 ```
 div>ul>li^p
-```
-**Expands to:**
-```html
-<div>
-    <ul>
-        <li></li>
-    </ul>
-    <p></p>
-</div>
+
 ```
 
 **More Examples:**
 ```
 div>h1+p>span^^footer
-→
-<div>
-    <h1></h1>
-    <p><span></span></p>
-</div>
-<footer></footer>
-
-article>h1+section>p^^aside
-→
-<article>
-    <h1></h1>
-    <section>
-        <p></p>
-    </section>
-</article>
-<aside></aside>
 ```
 
 **Multiple Climb-ups:**
 ```
 div>div>div>p^^^span
-→
-<div>
-    <div>
-        <div>
-            <p></p>
-        </div>
-    </div>
-</div>
-<span></span>
+
 ```
 
 ---
@@ -146,59 +76,18 @@ Groups sub-trees to handle complex structures.
 
 ```
 div>(header>ul>li*2)+footer>p
-```
-**Expands to:**
-```html
-<div>
-    <header>
-        <ul>
-            <li></li>
-            <li></li>
-        </ul>
-    </header>
-    <footer>
-        <p></p>
-    </footer>
-</div>
+
 ```
 
 **More Examples:**
 ```
 (div>h1+p)+(div>h2+p)
-→
-<div>
-    <h1></h1>
-    <p></p>
-</div>
-<div>
-    <h2></h2>
-    <p></p>
-</div>
-
-ul>(li>a{Item $})*3
-→
-<ul>
-    <li><a href="">Item 1</a></li>
-    <li><a href="">Item 2</a></li>
-    <li><a href="">Item 3</a></li>
-</ul>
 ```
 
 **Nested Grouping:**
 ```
 (div>dl>(dt+dd)*3)+footer
-→
-<div>
-    <dl>
-        <dt></dt>
-        <dd></dd>
-        <dt></dt>
-        <dd></dd>
-        <dt></dt>
-        <dd></dd>
-    </dl>
-</div>
-<footer></footer>
+
 ```
 
 ---
@@ -210,51 +99,12 @@ Multiplies elements.
 ```
 ul>li*5
 ```
-**Expands to:**
-```html
-<ul>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-</ul>
-```
+
 
 **More Examples:**
 ```
-nav>ul>li*3>a
-→
-<nav>
-    <ul>
-        <li><a href=""></a></li>
-        <li><a href=""></a></li>
-        <li><a href=""></a></li>
-    </ul>
-</nav>
 
 table>tr*3>td*4
-→
-<table>
-    <tr>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-</table>
 ```
 
 ---
@@ -276,12 +126,10 @@ div#header
 **More Examples:**
 ```
 section#main
-→
-<section id="main"></section>
+
 
 form#contact-form
-→
-<form action="" id="contact-form"></form>
+
 ```
 
 ---
@@ -295,25 +143,22 @@ div.container
 ```
 **Expands to:**
 ```html
-<div class="container"></div>
+
 ```
 
 **Multiple Classes:**
 ```
 div.container.wrapper.main
-→
-<div class="container wrapper main"></div>
+
 
 button.btn.btn-primary.btn-lg
-→
-<button class="btn btn-primary btn-lg"></button>
+
 ```
 
 **Combined ID and Classes:**
 ```
 div#app.container.fluid
-→
-<div id="app" class="container fluid"></div>
+
 ```
 
 ---
@@ -324,43 +169,33 @@ Adds custom attributes.
 
 ```
 a[href="#" title="Link"]
-```
-**Expands to:**
-```html
-<a href="#" title="Link"></a>
+
 ```
 
 **More Examples:**
 ```
 img[src="image.jpg" alt="Description"]
-→
-<img src="image.jpg" alt="Description">
+
 
 input[type="text" name="username" placeholder="Enter name"]
-→
-<input type="text" name="username" placeholder="Enter name">
 
 div[data-id="123" data-name="test"]
-→
-<div data-id="123" data-name="test"></div>
+
 ```
 
 **Attributes without values:**
 ```
 button[disabled]
-→
-<button disabled></button>
+
 
 input[required readonly]
-→
-<input type="text" required readonly>
+
 ```
 
 **Boolean Attributes:**
 ```
 script[async defer]
-→
-<script async defer></script>
+
 ```
 
 ---
@@ -371,80 +206,32 @@ Auto-increments numbers.
 
 ```
 ul>li.item$*5
-```
-**Expands to:**
-```html
-<ul>
-    <li class="item1"></li>
-    <li class="item2"></li>
-    <li class="item3"></li>
-    <li class="item4"></li>
-    <li class="item5"></li>
-</ul>
+
 ```
 
 **Multiple `$` for padding:**
 ```
 ul>li.item$$*5
-→
-<ul>
-    <li class="item01"></li>
-    <li class="item02"></li>
-    <li class="item03"></li>
-    <li class="item04"></li>
-    <li class="item05"></li>
-</ul>
+
 
 ul>li.item$$$*3
-→
-<ul>
-    <li class="item001"></li>
-    <li class="item002"></li>
-    <li class="item003"></li>
-</ul>
+
 ```
 
 **Changing Base and Direction:**
 
 ```
 ul>li.item$@-*5
-→ (reverse order, starts at 5)
-<ul>
-    <li class="item5"></li>
-    <li class="item4"></li>
-    <li class="item3"></li>
-    <li class="item2"></li>
-    <li class="item1"></li>
-</ul>
 
-ul>li.item$@3*5
-→ (starts at 3)
-<ul>
-    <li class="item3"></li>
-    <li class="item4"></li>
-    <li class="item5"></li>
-    <li class="item6"></li>
-    <li class="item7"></li>
-</ul>
 
 ul>li.item$@-3*5
-→ (reverse, starts at 7)
-<ul>
-    <li class="item7"></li>
-    <li class="item6"></li>
-    <li class="item5"></li>
-    <li class="item4"></li>
-    <li class="item3"></li>
-</ul>
+
 ```
 
 **Multiple Numbering:**
 ```
 div.section$.item$*3
-→
-<div class="section1 item1"></div>
-<div class="section2 item2"></div>
-<div class="section3 item3"></div>
+
 ```
 
 ---
@@ -455,45 +242,27 @@ Adds text content.
 
 ```
 a{Click me}
-```
-**Expands to:**
-```html
-<a href="">Click me</a>
+
 ```
 
 **More Examples:**
 ```
 h1{Welcome to My Site}
-→
-<h1>Welcome to My Site</h1>
-
-p{This is a paragraph with some text.}
-→
-<p>This is a paragraph with some text.</p>
 
 ul>li*3>a{Item $}
-→
-<ul>
-    <li><a href="">Item 1</a></li>
-    <li><a href="">Item 2</a></li>
-    <li><a href="">Item 3</a></li>
-</ul>
+
 ```
 
 **Text with Siblings:**
 ```
 p{Click }+a{here}+span{ to continue}
-→
-<p>Click </p>
-<a href="">here</a>
-<span> to continue</span>
+
 ```
 
 **Text without wrapping:**
 ```
 p>{Click }+a{here}+{ to continue}
-→
-<p>Click <a href="">here</a> to continue</p>
+
 ```
 
 ---
@@ -505,72 +274,33 @@ Emmet can infer tag names based on context.
 **Inside block elements:**
 ```
 .wrapper
-→
-<div class="wrapper"></div>
 
 #header
-→
-<div id="header"></div>
+
 ```
 
 **Inside inline elements:**
 ```
 em>.info
-→
-<em><span class="info"></span></em>
-
 a>.link
-→
-<a href=""><span class="link"></span></a>
 ```
 
 **Inside list elements:**
 ```
 ul>.item*3
-→
-<ul>
-    <li class="item"></li>
-    <li class="item"></li>
-    <li class="item"></li>
-</ul>
-
 ol>.step*3
-→
-<ol>
-    <li class="step"></li>
-    <li class="step"></li>
-    <li class="step"></li>
-</ol>
 ```
 
 **Inside table elements:**
 ```
 table>.row>.cell
-→
-<table>
-    <tr class="row">
-        <td class="cell"></td>
-    </tr>
-</table>
-
 tr>.col*3
-→
-<tr>
-    <td class="col"></td>
-    <td class="col"></td>
-    <td class="col"></td>
-</tr>
 ```
 
 **Inside select elements:**
 ```
 select>.option*3
-→
-<select name="" id="">
-    <option value=""></option>
-    <option value=""></option>
-    <option value=""></option>
-</select>
+
 ```
 
 **Complete Context Table:**
@@ -629,14 +359,7 @@ ul>li*5>lorem3
     <li>Nostrum, quibusdam adipisci.</li>
     <li>Molestiae, iure ullam!</li>
 </ul>
-```
 
-**Alternate Syntax:**
-```
-lipsum
-→ (same as lorem)
-
-loremN (where N is number of words)
 ```
 
 ---
@@ -649,38 +372,14 @@ loremN (where N is number of words)
 !
 or
 html:5
-```
-**Expands to:**
-```html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
-</html>
+
 ```
 
 #### 5.2 Navigation Menu
 
 ```
 nav#main-nav>ul.nav-list>li.nav-item$*5>a.nav-link[href="#"]{Menu Item $}
-```
-**Expands to:**
-```html
-<nav id="main-nav">
-    <ul class="nav-list">
-        <li class="nav-item1"><a href="#" class="nav-link">Menu Item 1</a></li>
-        <li class="nav-item2"><a href="#" class="nav-link">Menu Item 2</a></li>
-        <li class="nav-item3"><a href="#" class="nav-link">Menu Item 3</a></li>
-        <li class="nav-item4"><a href="#" class="nav-link">Menu Item 4</a></li>
-        <li class="nav-item5"><a href="#" class="nav-link">Menu Item 5</a></li>
-    </ul>
-</nav>
+
 ```
 
 #### 5.3 Article with Metadata
