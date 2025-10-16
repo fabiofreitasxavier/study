@@ -3,14 +3,24 @@
 
 ## Table of Contents
 
-1. [Document Structure(8)](#document-structure)
-2. [All HTML Elements (84)](#all-html-elements)
-3. [Global Attributes (11)](#global-attributes)
+1. [Document Structure(11)](#document-structure)
+2. [Sectioning Content (11)](#sectioning-content)
+2. [Text Content (13)](#all-html-elements)
+2. [Inline Text Semantic (29)](#all-html-elements)
+2. [List (6)](#all-html-elements)
+2. [Table (10)](#all-html-elements)
+2. [Form (16)](#all-html-elements)
+2. [Media (6)](#all-html-elements)
+2. [Web Components (2)](#all-html-elements)
+2. [Scripting & Interactive (4)](#all-html-elements)
+2. [Interactive Elements(3)](#all-html-elements)
+3. [Global Attributes (24)](#global-attributes)
 4. [Quick Reference](#quick-reference)
 5. [Practice](/index.html)
 ---
 
-## Document Structure
+
+## Document Structure (11)
 
 ### Basic HTML5 Document
 
@@ -22,6 +32,9 @@
 - `<style>` – internal CSS
 - `<base>` – base URL for relative links
 - `<script>` – JavaScript code
+- `<noscript>` -
+- `<base>` -
+- `<body>` -
 
 ```html
 <!DOCTYPE html>
@@ -39,97 +52,122 @@
 
 ---
 
-## All HTML Elements
+## HTML Elements
 
-- Sectioning Content (7)
-    - `<header>`
-    - `<nav>`
-    - `<main>`
-    - `<section>`
+#### Sectioning Content (11)
+    - `<address>`
     - `<article>`
     - `<aside>`
     - `<footer>`
-- Text Content (6)
-    - `<h1>` to `<h6>` – headings
-    - `<p>` – paragraph
-    - `<br>` – line break
-    - `<hr>` – horizontal rule
-    - `<blockquote>` – quoted section
-    - `<pre>` – preformatted text
-- Formatting Elements(10)
-    - `<b>` - Bold text
-    - `<strong>` - Important text
-    - `<i>` - Italic text
-    - `<em>` - Emphasized text
-    - `<mark>` - Marked text
-    - `<small>` - Smaller text
-    - `<del>` - Deleted text
-    - `<ins>` - Inserted text
-    - `<sub>` - Subscript text
-    - `<sup>` - Superscript text
-- Quotation and Citation Elements (6)
-    
-    `<blockquote>`,`<q>`, `<abbr>`, `<address>`, `<cite>`, and `<bdo>`
-    
-- Inline Text Semantics (8)
-    - `<a>` – hyperlink
-    - `<strong>` – strong importance
-    - `<em>` – emphasized
-    - `<span>` – generic inline container
-    - `<mark>` – highlighted text
-    - `<small>` – smaller text
-    - `<code>` – code snippet
-    - `<sup>` / `<sub>` – superscript / subscript
-- HTML Images (4)
-    ```
-    - <img>
-    - <map> (image maps)
-    - <picture>
-    
-- Lists (6)
-    - `<ul>` – unordered list
-    - `<ol>` – ordered list
-    - `<li>` – list item
-    - `<dl>` – description list
-    - `<dt>` – term
-    - `<dd>` – description
-- Tables (10)
-    - `<table>`
-    - `<tr>` – table row
-    - `<th>` – table header
-    - `<td>` – table data
-    - `<thead>`, `<tbody>`, `<tfoot>`, `<caption>`, `<col>`, `<colgroup>`
-- Forms (11)
-    - `<form>`
-    - `<input>`
-    - `<label>`
-    - `<textarea>`
-    - `<button>`
-    - `<select>`
-    - `<option>`
-    - `<fieldset>`
-    - `<legend>`
-    - `<datalist>`
-    - `<output>`
-- Media (9)
-    - `<img>`
-    - `<audio>`
-    - `<video>`
-    - `<source>`
-    - `<track>`
-    - `<picture>`
-    - `<iframe>`
-    - `<embed>`
-    - `<object>`
-- Scripting & Interactive (4)
-    - `<script>`
-    - `<noscript>`
-    - `<canvas>`
-    - `<svg>`
-- Web Components (HTML5) (3)
-    - `<template>`
-    - `<slot>`
-    - `<shadow>`
+    - `<header>`
+    - `<headings>`
+    - `<hgroup>`
+    - `<main>`
+    - `<nav>`
+    - `<section>`
+    - `<search>`
+
+####  Text Content (13)
+    - `<blockquote>`
+    - `<dd>`
+    - `<div>`
+    - `<dl>`
+    - `<dt>`
+    - `<figcaption>`
+    - `<figure>`
+    - `<hr>`
+    - `<li>`
+    - `<menu>`
+    - `<ol>`
+    - `<p>`
+    - `<pre>`
+    - `<ul>`
+
+####  Inline text semantics (29)
+    - `<a>`
+    - `<abbr>`
+    - `<bdi>`
+    - `<bdo>`
+    - `<br>`
+    - `<cite>`
+    - `<code>`
+    - `<data>`
+    - `<dfn>`
+    - `<em>`
+    - `<i>`
+    - `<kbd>`
+    - `<mark>`
+    - `<q>`
+    - `<rp>`
+    - `<rt>`
+    - `<ruby>`
+    - `<s>`
+    - `<samp>`
+    - `<small>`
+    - `<span>`
+    - `<strong>`
+    - `<sub>`
+    - `<span>`
+    - `<sup>`
+    - `<time>`
+    - `<u>`
+    - `<var>`
+    - `<wbr>`
+
+####  Lists (6)
+  - `<ul>` – unordered list
+  - `<ol>` – ordered list
+  - `<li>` – list item
+  - `<dl>` – description list
+  - `<dt>` – term
+  - `<dd>` – description
+#### Tables (10)
+  - `<table>`
+  - `<tr>` – table row
+  - `<th>` – table header
+  - `<td>` – table data
+  - `<thead>`, `<tbody>`, `<tfoot>`, `<caption>`, `<col>`, `<colgroup>`
+#### Forms (16)
+  - `<form>`
+  - `<input>`
+  - `<label>`
+  - `<textarea>`
+  - `<button>`
+  - `<select>`
+  - `<option>`
+  - `<fieldset>`
+  - `<legend>`
+  - `<datalist>`
+  - `<output>`
+  - `<meter>`
+  - `<optgroup>`
+  - `<option>`
+  - `<progress>`
+  - `<selectedcontent>`
+
+#### Media (6)
+  - `<area>`
+  - `<audio>`
+  - `<img>`
+  - `<map>`
+  - `<track>`
+  - `<video>`
+#### Web Components (2)
+  - `<slot>`
+  - `<template>`
+#### Interactive Elements (3)
+  - `<details>`
+  - `<dialog>`
+  - `<summary>`
+#### Scripting & Interactive (4)
+
+- `<script>`
+- `<noscript>`
+- `<canvas>`
+- `<svg>`
+
+
+
 ---
 
 
@@ -137,18 +175,28 @@
 
 ---
 
-## Global Attributes
+## Global Attributes (24)
 
 - 
-    - `id` – unique identifier
-    - `class` – CSS class
-    - `style` – inline styles
-    - `title` – tooltip text
-    - `lang` – language
-    - `dir` – text direction (ltr, rtl)
-    - `hidden` – hides element
-    - `tabindex` – focus order
-    - `contenteditable` – makes content editable
-    - `draggable` – makes element draggable
-    - `data-*` – custom data attributes
+
+    - `accesskey`  
+    - `class` 
+    - `contenteditable` 
+    - `title` 
+    - `lang` 
+    - `popover` 
+    - `spellcheck` 
+    - `style` 
+    - `tabindex` 
+    - `inputmode` 
+    - `inert` 
+    - `enterkeyhint` 
+    - `dir`  
+    - `hidden` 
+    - `tabindex` 
+    - `contenteditable` 
+    - `draggable`
+    - `data-*` 
+
+
 
