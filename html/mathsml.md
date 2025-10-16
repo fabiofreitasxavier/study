@@ -1,0 +1,22 @@
+## MathML
+
+- **`<math:maligngroup>`** — attrs: *(none)* — MathML element; typically used inside <math> namespace
+- **`<math:malignmark>`** — attrs: *(none)* — MathML element; typically used inside <math> namespace
+- **`<math:math>`** — attrs: *(none)* — MathML element; typically used inside <math> namespace
+- **`<math:mfrac>`** — attrs: *(none)* — MathML element; typically used inside <math> namespace
+- **`<math:mi>`** — attrs: *(none)* — MathML element; typically used inside <math> namespace
+- **`<math:mn>`** — attrs: *(none)* — MathML element; typically used inside <math> namespace
+- **`<math:mo>`** — attrs: *(none)* — MathML element; typically used inside <math> namespace
+- **`<math:mover>`** — attrs: *(none)* — MathML element; typically used inside <math> namespace
+- **`<math:mrow>`** — attrs: *(none)* — MathML element; typically used inside <math> namespace
+- **`<math:ms>`** — attrs: *(none)* — MathML element; typically used inside <math> namespace
+- **`<math:msqrt>`** — attrs: *(none)* — MathML element; typically used inside <math> namespace
+- **`<math:msub>`** — attrs: *(none)* — MathML element; typically used inside <math> namespace
+- **`<math:msubsup>`** — attrs: *(none)* — MathML element; typically used inside <math> namespace
+- **`<math:msup>`** — attrs: *(none)* — MathML element; typically used inside <math> namespace
+- **`<math:mtable>`** — attrs: *(none)* — MathML element; typically used inside <math> namespace
+- **`<math:mtd>`** — attrs: *(none)* — MathML element; typically used inside <math> namespace
+- **`<math:mtext>`** — attrs: *(none)* — MathML element; typically used inside <math> namespace
+- **`<math:mtr>`** — attrs: *(none)* — MathML element; typically used inside <math> namespace
+- **`<math:munder>`** — attrs: *(none)* — MathML element; typically used inside <math> namespace
+- **`<math:munderover>`** — attrs: *(none)* — MathML element; typically used inside <math> namespace

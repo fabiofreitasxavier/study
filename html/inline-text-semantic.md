@@ -1,0 +1,31 @@
+
+## Inline Text Semantics
+- `<a>`: Hyperlink.
+- `<abbr>`: Abbreviation.
+- `<b>`: Bold (non-semantic).
+- `<bdi>`: Bidirectional isolate.
+- `<bdo>`: Bidirectional override.
+- `<br>`: Line break.
+- `<cite>`: Work title.
+- `<code>`: Code fragment.
+- `<data>`: Machine-readable data.
+- `<dfn>`: Term definition.
+- `<em>`: Emphasis.
+- `<i>`: Italic (non-semantic).
+- `<kbd>`: Keyboard input.
+- `<mark>`: Highlighted text.
+- `<q>`: Inline quote.
+- `<rp>`: Ruby fallback.
+- `<rt>`: Ruby annotation.
+- `<ruby>`: Ruby text.
+- `<s>`: Strikethrough.
+- `<samp>`: Sample output.
+- `<small>`: Small print.
+- `<span>`: Generic inline.
+- `<strong>`: Strong emphasis.
+- `<sub>`: Subscript.
+- `<sup>`: Superscript.
+- `<time>`: Date/time.
+- `<u>`: Underline (non-semantic).
+- `<var>`: Variable.
+- `<wbr>`: Word break.
