@@ -1,0 +1,11 @@
+## Table Content
+- `<caption>`: Table caption.
+- `<col>`: Column properties.
+- `<colgroup>`: Column group.
+- `<table>`: Table.
+- `<tbody>`: Table body.
+- `<td>`: Table cell.
+- `<tfoot>`: Table footer.
+- `<th>`: Table header cell.
+- `<thead>`: Table header.
+- `<tr>`: Table row.

@@ -1,0 +1,12 @@
+## Content Sectioning
+- `<address>`: Contact info.
+- `<article>`: Self-contained content.
+- `<aside>`: Sidebar content.
+- `<footer>`: Section footer.
+- `<header>`: Section header.
+- `<h1>`–`<h6>`: Headings.
+- `<hgroup>`: Heading group.
+- `<main>`: Main content.
+- `<nav>`: Navigation links.
+- `<section>`: Generic section.
+- `<search>`^: Search controls.

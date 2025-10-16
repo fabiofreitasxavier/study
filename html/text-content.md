@@ -1,0 +1,15 @@
+## Text Content
+- `<blockquote>`: Extended quote.
+- `<dd>`: Description list item.
+- `<div>`: Generic container.
+- `<dl>`: Description list.
+- `<dt>`: Term in list.
+- `<figcaption>`: Figure caption.
+- `<figure>`: Self-contained content.
+- `<hr>`: Thematic break.
+- `<li>`: List item.
+- `<menu>`: Command list.
+- `<ol>`: Ordered list.
+- `<p>`: Paragraph.
+- `<pre>`: Preformatted text.
+- `<ul>`: Unordered list.
