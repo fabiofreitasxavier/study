@@ -4,7 +4,7 @@
 ## Table of Contents
 
 1. Elements (107) 
-    1. [Structure](/html/structure.md) (14): `DOCTYPE, html, head, title, meta, base, link, style, script, noscript, body, br, hr, <!-...--`
+    1. [Structure](/html/structure.md) (14): `DOCTYPE, html, head, title, meta, base, link, style, script, noscript, body, br, hr, <!-...-->`
     1. [Block] (5): `blockquote, div, h1, p, pre`
     1. [Inline] (1): `span`
     1. [Semantic] (/html/semantic.md) (12): ` address, article, aside, footer, header, group, main, menu, nav, search, section, time`
