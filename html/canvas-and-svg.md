@@ -1,8 +1,8 @@
-## Graphics
+## Canvas and SVG `for later`
 
 - **`<canvas>`** — attrs: *width, height, aria-label* — Use getContext('2d') or webgl; provide fallback content
 
-## SVG
+
 
 - **`<svg:circle>`** — attrs: *(none)* — SVG element <circle> — attributes vary (viewBox, d, x,y,width,height,fill,stroke,transform, etc.)
 - **`<svg:clipPath>`** — attrs: *(none)* — SVG element <clipPath> — attributes vary (viewBox, d, x,y,width,height,fill,stroke,transform, etc.)

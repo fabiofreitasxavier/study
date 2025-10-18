@@ -1,4 +1,4 @@
-## Content Sectioning
+## Semantic
 - `<address>`: Contact info.
 - `<article>`: Self-contained content.
 - `<aside>`: Sidebar content.

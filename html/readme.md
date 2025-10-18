@@ -2,24 +2,25 @@
 ---
 
 ## Table of Contents
-    Total of 252 elements
-1. [Document metadata(8)](/html/document-metadata.md) 
-2. [Sectioning Content (11)](/html/sectioning-content.md)
-3. [Text Content (14)](/html/text-content.md)
-4. [Inline Text Semantic (29)](/html/inline-text-semantic.md)
-5. [List (8)](/html/list.md)
-6. [Table (10)](/html/table.md)
-7. [Form (16)](/html/form.md)
-8. [Media (10)](/html/media.md)
-9. [Web Components (2)](/html/web-components.md)
-10. [Scripting & Interactive (4)](/html/script-and-interactive.md)
-11. [Interactive Elements(3)](/html/interactive-elements.md)
-12. [Global Attributes (24)](/html/global-attributes.md)
-13. [Embedded Contents(6)](/html/)
-14. [Attributes(80)](/html/attributes.md)
-15. [API's (6)](/html/api)
-16. [Extra Contents](/html/extra-contents.md)
-16. [Graphics and SVG(21)](/html/graphics-and-svg.md)
-17. [Practice](/index.html)
+
+1. Elements (107) 
+    1. [Structure](/html/structure.md) (14): `DOCTYPE, html, head, title, meta, base, link, style, script, noscript, body, br, hr, <!-...--`
+    1. [Block] (5): `blockquote, div, h1, p, pre`
+    1. [Inline] (1): `span`
+    1. [Semantic] (/html/semantic.md) (12): ` address, article, aside, footer, header, group, main, menu, nav, search, section, time`
+    1. [Table] (/html/table.md) (10): `table,thead, tr, th, body, td, tfoot, caption, col, colgroup`
+    1. [List] (/html/list.md) (6): `ol, ul,li, dl,dd, dt`
+    1. [Media] (/html/media.md) (8): `figure,figcaption,img,audio, video, picture,source,track`
+    1. [Forms] (/html/forms.md) (12): `form,label, input,textarea, select, option, optgroup,button,fieldset, legend, datalist,output`
+    1. [Link] (/html/links.md) (3): `a, map,area`
+
+1. Properties ()
+    1. Global attributes ()
+    1. Element attributes ()
+
+1. Values ()
+15. [Web API (6)](/html/api) `for later`
+16. [Canvas and SVG (21)](/html/graphics-and-svg.md) `for later`
+
 
 ---

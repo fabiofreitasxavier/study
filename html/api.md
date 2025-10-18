@@ -1,4 +1,4 @@
-# HTML API's
+# HTML wEB API's
 - **`<Canvas API>`** — attrs: *getContext('2d'), getContext('webgl')* — Canvas drawing and WebGL
 - **`<Fetch API>`** — attrs: *fetch()* — Network requests: fetch, Request, Response, Headers
 - **`<Service Worker>`** — attrs: *navigator.serviceWorker.register* — Offline caching and background sync
