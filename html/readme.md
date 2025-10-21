@@ -6,13 +6,13 @@
 1. Elements (107) 
     1. [Structure (14)](/html/structure.md) `DOCTYPE, html, head, title, meta, base, link, style, script, noscript, body, br, hr, <!-...-->`
     1. [Block (5)](/html/structure.md)  `blockquote, div, h1, p, pre`
-    1. [Inline] (1): `span`
-    1. [Semantic] (/html/semantic.md) (12): ` address, article, aside, footer, header, group, main, menu, nav, search, section, time`
+    1. [Inline (1)](/html/structure.md)  `span`
+    1. [Semantic (12)] (/html/semantic.md) ` address, article, aside, footer, header, group, main, menu, nav, search, section, time`
     1. [Table] (/html/table.md) (10): `table,thead, tr, th, body, td, tfoot, caption, col, colgroup`
-    1. [List] (/html/list.md) (6): `ol, ul,li, dl,dd, dt`
-    1. [Media] (/html/media.md) (8): `figure,figcaption,img,audio, video, picture,source,track`
-    1. [Forms] (/html/forms.md) (12): `form,label, input,textarea, select, option, optgroup,button,fieldset, legend, datalist,output`
-    1. [Link] (/html/links.md) (3): `a, map,area`
+    1. [List] (/html/list.md) (6) `ol, ul,li, dl,dd, dt`
+    1. [Media(8)] (/html/media.md)  `figure,figcaption,img,audio, video, picture,source,track`
+    1. [Forms(12)] (/html/forms.md)  `form,label, input,textarea, select, option, optgroup,button,fieldset, legend, datalist,output`
+    1. [Link(3)] (/html/links.md)  `a, map,area`
 
 1. Properties ()
     1. Global attributes ()
